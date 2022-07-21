@@ -1,4 +1,5 @@
 {
+  "homepage": "https://humbertoaraujo.github.io/project-solar-system/",
   "name": "solar-system",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -33,6 +36,7 @@
   "devDependencies": {
     "@testing-library/dom": "^8.1.0",
     "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^4.0.0",
     "prop-types": "^15.7.2"
-  }
+  }  
 }
