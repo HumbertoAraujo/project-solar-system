@@ -1,0 +1,123 @@
+/*CSS Reset*/
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/*CSS Reset*/
+
+body {
+  background-image: url('images/background.png'); 
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+header h1 {
+  padding: 20px;
+  font-family: fantasy;
+  font-size: 80px;
+}
+
+.solar-system, .missions{
+  text-align: center;
+}
+
+.planet-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin: 50px 10px;
+}
+
+.planet-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  font-family: fantasy;
+  padding: 0px;  
+}
+
+.planets {
+  width: 150px;
+}
+
+.planet-card:hover {
+  font-size: 30px; 
+  color: yellow; 
+}
+
+.h2-title {
+  font-size: 40px;
+  font-family: fantasy;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin: 50px 10px;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 200px;
+}
+.mission-name {
+  border-bottom: solid 2px white;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+  margin: 0px 0px 10px;
+  padding-bottom: 10px;    
+}
+
+.missions-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: sans-serif;
+}
+
+.mission-card:hover {
+  width: 300px;
+  height: 250px;
+  border: solid 3px white;
+  color: yellow;
+  font-size: 30px;
+}
